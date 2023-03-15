@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Sassy+Frass&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="./navbar.css">
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px black;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blacked{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+}
+#webheading{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 100px;
+    letter-spacing: 30px;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Courgette', cursive;
+font-family: 'Sassy Frass', cursive;
+}
+#bodyofthepage{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 880px;
+    background-color:black;
+}
+.heading1{
+    padding-top: 80px;
+    padding-left: 80px;
+    color: rgb(184, 201, 255);
+    font-size: 28px;
+}
+.para{
+    font-size: 24px;
+    color: white;
+    text-align: justify;
+    padding: 80px;
+    padding-top: 20px;
+    text-indent: 50px;
+    line-height: 35px;
+}
+#heading1{
+    padding-top: 0px;
+}
+.parts{
+    width: 30%;
+    height: 300px;
+    float: left;
+    border-radius: 20px;
+    border-left: 5px solid white;
+    transition: box-shadow 0.2s;
+}
+.parts:hover{
+    box-shadow: -10px 0px 0px limegreen;
+}
+#contparts{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading2{
+    text-align: center;
+    color: gainsboro;
+    padding-top: 20px;
+}
+.para1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+}
+#loc{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 50%;
+    height: 400px;
+    border-radius: 30px;
+    border: 5px solid limegreen;
+    box-shadow: 5px 5px 5px black;
+}
+#footer{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 24px;
+    padding-left: 50px;
+    color: white;
+}
+i{
+    font-size: 24px;
+    padding-left: 20px;
+    color: white;
+}
+#contsearch{
+    width: 30%;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    overflow: hidden;
+}
+#but{
+    float: right;
+    width: 30%;
+    height: 30px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+#search{
+    width: 60%;
+    float: left;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding-left: 5px;
+}
+#headervid{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    z-index: 1;
+}
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="blacked"></div>
+        <h1 id="webheading">BIG BOY TOYS</h1>
+        <video id="headervid" src="C:\Users\RAM\Downloads\SnapSave.io-BUGATTI CHIRON Pur Sport_ ‘C’ the Drift-(1080p).mp4" autoplay muted loop></video>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li">Home</li>
+            <li class="li" id="hov">Cars
+                <ul id="sublist">
+                    <li class="sli">BMW</li>
+                    <li class="sli">AUDI</li>
+                    <li class="sli">LAMBORGINI</li>
+                    <li class="sli">PORCHE</li>
+                </ul>
+            </li>
+            <li class="li">Info</li>
+            <li class="li">Logout</li>
+        </ul>
+    </div>
+    <div id="bodyofthepage">
+        <h1 class="heading1">Big boys toys,a pre-owned luxury car dealer deal with 24 brands:</h1>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cumque ipsam ullam animi at explicabo sunt odit libero alias, fuga porro cupiditate repellendus qui, reprehenderit ipsum distinctio voluptate sed a iure et eaque amet illum magni. Possimus cumque vel tenetur!</p>
+        <h1 class="heading1" id="heading1">MISSION</h1>
+        <P class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora iusto numquam debitis sint aspernatur dolor iure ex, repellat magni illo repellendus fuga ullam molestiae delectus. Voluptatum qui optio cupiditate placeat?</P>
+        <div id="conparts">
+            <div class="parts">
+                <h1 class="heading2">2020</h1>
+                <p class="para1">Opened a grand 10000sq feet showroom at KPHB</p>
+            </div>
+            <div class="parts">
+                <h1 class="heading2">2021</h1>
+                <p class="para1">Opened a grand 8000sq feet showroom at HI-TEC CITY</p>
+            </div>
+            <div class="parts">
+                <h1 class="heading2">2022</h1>
+                <p class="para1">Opened a grand 5000sq feet showroom at JNTU</p>
+            </div>
+        </div>
+    </div>
+        <div id="loc">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31698260977!2d78.26795840666708!3d17.412299800855877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1676134811055!5m2!1sen!2sin"></iframe>
+        </div>
+        <div id="footer">
+            <span>Follow us</span>
+            <a href="https://www.instagram.com/big_boy_toys__india/"><i class="fa-brands fa-instagram"></i></a>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <div id="contsearch">
+                <input type="text" id="search">
+                <input type="button" value="submit" id="but">
+            </div>
+        </div>
+</body>
+</html>
